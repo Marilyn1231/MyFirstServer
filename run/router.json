@@ -107,5 +107,30 @@
     "stack": [
       "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.destroy()"
     ]
+  },
+  {
+    "name": "positions",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/positions",
+    "regexp": "/^\\/api\\/v1\\/positions(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/positions.js#PositionController.index()"
+    ]
+  },
+  {
+    "name": "positions",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/positions",
+    "regexp": "/^\\/api\\/v1\\/positions(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/positions.js#PositionController.create()"
+    ]
   }
 ]
