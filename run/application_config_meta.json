@@ -1,0 +1,249 @@
+{
+  "keys": "/Users/q/dev/node/MyFirstServer/config/config.default.js",
+  "middleware": "/Users/q/dev/node/MyFirstServer/config/config.default.js",
+  "errorHandler": {
+    "match": "/Users/q/dev/node/MyFirstServer/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/q/dev/node/MyFirstServer/config/config.default.js",
+    "domainWhiteList": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/q/dev/node/MyFirstServer/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/q/dev/node/MyFirstServer/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/q/dev/node/MyFirstServer/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/q/dev/node/MyFirstServer/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/q/dev/node/MyFirstServer/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/q/dev/node/MyFirstServer/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/q/dev/node/MyFirstServer/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/q/dev/node/MyFirstServer/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/q/dev/node/MyFirstServer/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/q/dev/node/MyFirstServer/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/q/dev/node/MyFirstServer/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/q/dev/node/MyFirstServer/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/q/dev/node/MyFirstServer/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/q/dev/node/MyFirstServer/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/q/dev/node/MyFirstServer/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/q/dev/node/MyFirstServer/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/q/dev/node/MyFirstServer/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/q/dev/node/MyFirstServer/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/q/dev/node/MyFirstServer/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/q/dev/node/MyFirstServer/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/q/dev/node/MyFirstServer/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/q/dev/node/MyFirstServer/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/q/dev/node/MyFirstServer/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/q/dev/node/MyFirstServer/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/q/dev/node/MyFirstServer/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/q/dev/node/MyFirstServer/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/q/dev/node/MyFirstServer/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/q/dev/node/MyFirstServer/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/q/dev/node/MyFirstServer/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/q/dev/node/MyFirstServer/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/q/dev/node/MyFirstServer/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/q/dev/node/MyFirstServer/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/q/dev/node/MyFirstServer/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/q/dev/node/MyFirstServer/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "name": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "version": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "description": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "private": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "dotenv": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "twilio": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "dev": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "test": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "cov": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "lint": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "ci": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "autod": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "url": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "license": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "strict": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "depth": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "env": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "level": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "port": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/q/dev/node/MyFirstServer/node_modules/egg/config/config.default.js"
+  }
+}

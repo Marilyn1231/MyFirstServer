@@ -4,7 +4,6 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "auth0": "^2.6.0",
     "dotenv": "^4.0.0",
     "egg": "^1.7.0",
     "egg-mongoose": "^2.1.0",

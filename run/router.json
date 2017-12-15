@@ -1,0 +1,111 @@
+[
+  {
+    "name": "posts",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/posts",
+    "regexp": "/^\\/api\\/v1\\/posts(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.index()"
+    ]
+  },
+  {
+    "name": "new_post",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/posts/new",
+    "regexp": "/^\\/api\\/v1\\/posts\\/new(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.new()"
+    ]
+  },
+  {
+    "name": "posts",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/posts",
+    "regexp": "/^\\/api\\/v1\\/posts(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.create()"
+    ]
+  },
+  {
+    "name": "post",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/posts/:id",
+    "regexp": "/^\\/api\\/v1\\/posts\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.show()"
+    ]
+  },
+  {
+    "name": "edit_post",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/posts/:id/edit",
+    "regexp": "/^\\/api\\/v1\\/posts\\/((?:[^\\/]+?))\\/edit(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.edit()"
+    ]
+  },
+  {
+    "name": "destroy_post",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/posts/:id",
+    "regexp": "/^\\/api\\/v1\\/posts\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/posts.js#PostController.destroy()"
+    ]
+  }
+]
