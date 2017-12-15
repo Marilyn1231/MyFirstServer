@@ -5,8 +5,10 @@ module.exports = app => {
     async index(ctx) {
       // GET /api/v1/posts
 
+      const x = ctx.req.x;
+
       ctx.status = 200;
-      ctx.body = { success: true };
+      ctx.body = { "x_plus_1": x+1 };
     }
 
     async create(ctx) {
