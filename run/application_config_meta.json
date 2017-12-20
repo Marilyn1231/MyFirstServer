@@ -39,6 +39,12 @@
       "policy": "/Users/q/dev/node/MyFirstServer/node_modules/egg-security/config/config.default.js"
     }
   },
+  "mongoose": {
+    "url": "/Users/q/dev/node/MyFirstServer/config/config.default.js",
+    "options": {
+      "mongos": "/Users/q/dev/node/MyFirstServer/config/config.default.js"
+    }
+  },
   "session": {
     "maxAge": "/Users/q/dev/node/MyFirstServer/node_modules/egg-session/config/config.default.js",
     "key": "/Users/q/dev/node/MyFirstServer/node_modules/egg-session/config/config.default.js",

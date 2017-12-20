@@ -111,6 +111,12 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mongoose": {
+      "url": "mongodb://rdfz:rdfz2018@aws-us-east-1-portal.29.dblayer.com:22546,aws-us-east-1-portal.27.dblayer.com:22546/rdfz?ssl=true",
+      "options": {
+        "mongos": true
+      }
+    },
     "env": "local",
     "name": "hippo.server",
     "keys": "<String len: 31>",
@@ -428,6 +434,17 @@
       "from": "/Users/q/dev/node/MyFirstServer/config/plugin.js",
       "path": "/Users/q/dev/node/MyFirstServer/node_modules/egg-validate",
       "version": "1.0.0"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/q/dev/node/MyFirstServer/config/plugin.js",
+      "path": "/Users/q/dev/node/MyFirstServer/node_modules/egg-mongoose",
+      "version": "2.1.1"
     }
   }
 }

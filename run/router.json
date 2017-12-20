@@ -109,6 +109,18 @@
     ]
   },
   {
+    "name": "polls",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/polls",
+    "regexp": "/^\\/api\\/v1\\/polls(?:\\/(?=$))?$/",
+    "stack": [
+      "/Users/q/dev/node/MyFirstServer/app/controller/polls.js#PollController.create()"
+    ]
+  },
+  {
     "name": "positions",
     "methods": [
       "HEAD",
