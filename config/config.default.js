@@ -24,10 +24,10 @@ module.exports = appInfo => {
   // config.security = { csrf: { ignoreJSON: true } };
   config.security = { csrf: false };
 
-  // config.mongoose = {
-  //   url: process.env.MONGO_URL,
-  //   options: { mongos: true },
-  // };
+  config.mongoose = {
+    url: process.env.MONGO_URL,
+    options: { mongos: true },
+  };
 
   return config;
 };
